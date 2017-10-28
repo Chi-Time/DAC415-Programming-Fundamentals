@@ -1,0 +1,13 @@
+- Get a random number in range
+
+- Prompt user for number guess between and including 1 - 10
+- Parse user guess
+- IF: Is valid guess
+	- Check if guess is correct
+	- IF: Guess is correct
+		- Print well done to the user
+	- ELSE: Guess is incorrect
+		- Tell player is incorrect 
+		- Inform how far away they were
+- ELSE: Is invalid guess
+	- Re-prompt user for valid guess

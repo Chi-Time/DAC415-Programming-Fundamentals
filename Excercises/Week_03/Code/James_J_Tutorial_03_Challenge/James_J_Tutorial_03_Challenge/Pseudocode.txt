@@ -1,0 +1,19 @@
+- Prompt the user to select a dice roll method
+- Compare the choice to perform a method
+- IF: Player selects 1 die roll
+	- Prompt user for a die size
+	- Parse die size
+	- IF: Is valid die size
+		- Perform a die roll and return the result
+	- ELSE: Is not valid die size
+		- Re-prompt use for valid die size
+- ELSE: player selects 2 dice roll
+	- Prompt user for both dice sizes
+	- Parse dice sizes
+	- IF: Is valid dice sizes
+		- Perform dice roll
+		- Return the result of both rolls combined
+	- ELSE:
+		- Re-prompt user or valid dice sizes
+- ELSE: Player selects none or incorrect
+	- Re-prompt user to select an option.

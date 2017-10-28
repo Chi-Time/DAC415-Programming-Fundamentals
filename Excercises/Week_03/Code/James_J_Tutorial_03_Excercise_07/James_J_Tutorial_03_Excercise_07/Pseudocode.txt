@@ -1,0 +1,12 @@
+- Prompt user for the current temperature in celsius
+- Parse the user input value to make sure it's a correct celsius degree
+- IF: Is valid celsius degree
+	- Convert the temperature to fahrenheit
+- ELSE: Is not valid celsius degree
+	- Re-prompt user for celsius value
+
+- Create a const offset for 1.8 as the fractional offset
+- Create a const offset for 32 as the whole offset
+- Perform the equation (celsius * first offset) + second offset
+- Return the value of this equation as fahrenheit
+- Print the fahrenheit value to the user
