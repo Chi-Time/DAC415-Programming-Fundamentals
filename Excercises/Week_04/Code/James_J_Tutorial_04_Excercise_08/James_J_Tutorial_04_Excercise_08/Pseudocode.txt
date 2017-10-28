@@ -1,0 +1,49 @@
+- Prompt user for word to check
+- Parse word to lowercase
+- Compare if word is palindrome
+- IF: word is palindrome
+	- Inform user that it is
+	- Re-prompt for new word
+- ELSE: word is not a palindrome
+	- Inform user that it is not
+	- Re-prompt for new word
+
+IsPalindrome Function
+- IF: The word length is an even amount of characters
+	- The word is not a palindrome so stop checking
+- ELSE: The word is an odd amount of characters
+	- The word could be a palindrome so keep checking
+- Get each character of the word forwards
+- Get each character of the word backwards
+- IF: both of them are not the same as each other
+	- The word is not a palindrome and so stop checking
+- ELSE: both of the characters are the same as each other
+	- The word could be a palindrome so keep checking
+- IF: The whole word has been iterated over front to back it's a palindrome
+
+SplitString Function
+- Create a temp integer called size
+- Go through the given string by each character
+- Every time the character is the same as the delimiter
+- Add one to the size
+- Create an empty list of words and give it a size
+- Create a temporary string called word
+- Loop through the line again and add each character to the word
+- IF: the current position is a delimiter
+	- Add the word to the list
+	- Reset the temp variable
+	- Skip this stage of the loop
+- ELSE: the current position isn't a delimiter
+	- Add the character to the word
+- After the loop add the final word to the list
+- Return the list of split words
+
+Entry REVISION
+- Prompt user for a word or sentence to check
+- Parse sentence to lowercase
+- Split the sentence into a series of words
+- Compare if each word is a palindrome
+- IF: current word is a palindrome
+	- Inform user that it is a palindrome
+- ELSE: current word is not a palindrome
+	- Inform user that it is not a palindrome

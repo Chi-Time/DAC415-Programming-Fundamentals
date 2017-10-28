@@ -1,0 +1,7 @@
+- Prompt the user for a postive number
+- Parse input
+- IF: it is not valid
+	- Re-prompt user for valid positive number
+- Display and countdown from the given number
+- IF: the current iteration of the number is equal to 1
+	- Print the word FIRE! to the screen

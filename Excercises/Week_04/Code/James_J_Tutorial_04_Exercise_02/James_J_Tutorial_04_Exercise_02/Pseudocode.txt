@@ -1,0 +1,14 @@
+- Create a constant high score
+- Prompt user 1 for their high score
+- Check that it's a valid score
+-IF: It is not valid
+	- Re-prompt user for valid score.
+- Prompt user 2 for their high score
+- Check that it's a valid score
+- IF: It is not valid
+	- Re-prompt user for valid score.
+- Compare the two score's together and see who is higher
+- Display a message of who is higher and wins.
+- Compare the winner against the preset high score and see who is higher
+- IF: The player is higher print a winning message to the screen
+- ELSE: The player is lower, print a losing message to the screen

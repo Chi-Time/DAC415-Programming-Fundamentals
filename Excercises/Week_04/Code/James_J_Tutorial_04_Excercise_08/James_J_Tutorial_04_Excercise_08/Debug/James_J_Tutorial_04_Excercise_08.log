@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\james johnson\documents\visual studio 2015\projects\uni\james_j_tutorial_04_excercise_08\james_j_tutorial_04_excercise_08\main.cpp(40): warning C4018: '<': signed/unsigned mismatch
+  James_J_Tutorial_04_Excercise_08.vcxproj -> C:\Users\James Johnson\Documents\Visual Studio 2015\Projects\Uni\James_J_Tutorial_04_Excercise_08\Debug\James_J_Tutorial_04_Excercise_08.exe
+  James_J_Tutorial_04_Excercise_08.vcxproj -> C:\Users\James Johnson\Documents\Visual Studio 2015\Projects\Uni\James_J_Tutorial_04_Excercise_08\Debug\James_J_Tutorial_04_Excercise_08.pdb (Full PDB)

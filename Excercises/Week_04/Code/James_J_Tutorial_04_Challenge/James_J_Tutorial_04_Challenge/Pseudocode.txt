@@ -1,0 +1,51 @@
+- Create a random number generator object
+- Create a helper for getting random numbers in ranges inside of object
+- Create an enum for menu choices
+
+Display Menu ()
+- Display menu to user
+- Make user select from 3 options, either play, rules or exit
+
+Parse Selection ()
+- IF: user input is invalid
+	- Re-prompt user for valid menu selection
+- ELSE IF: user selects play
+	- Start game
+- ELSE IF: user selects rules
+	- Clear the console window
+	- Display the rules to the player
+	- Wait for user to press input again and then re-display menu
+- ELSE: user selects exit
+	-Exit program
+
+Start Game ()
+- Create a random number between 1 - 10
+- Give the user 10 guesses
+- Prompt the user to guess a number
+- Get the user's guess
+- IF: the user runs out of guesses
+	- Tell the user they lost
+	- Display the menu
+- ELSE: the user has guesses remaining
+	- Prompt the user to guess a number
+
+Parse Input ()
+- Parse the guess
+- IF: the guess is an invalid one
+	- Re-prompt the user to guess a valid number
+- ELSE: The guess is a valid one
+	- Compare the guess with the number
+
+Compare Number ()
+- IF: the guess is > greater than the number
+	- Tell the user their guess is wrong
+	- Tell the user how far off they were
+	- Decrease the number of users guesses
+- ELSE: the guess is < less than the number
+	- Tell the user their guess is wrong
+	- Tell the user how far off they were
+	- Decrease the number of users guesses
+- ELSE: the guess is the number
+	- Tell the user they guessed correctly
+	- Tell the user they won
+	- Display the menu
