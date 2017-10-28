@@ -1,0 +1,22 @@
+- Create shouldRun variable
+- IF: shouldRun is false
+	- Exit out of program.
+- Else: shouldRun is true
+	- Loop until false.
+
+- WHILE: shouldRun
+- Prompt user for a number
+- IF: number is invalid
+    - IF: number is quit
+        - shouldRun is false
+    - ELSE: number is not quit
+        - Re-prompt user for number
+- ELSE: number is valid
+    - IF: number is even
+        - Even number count increases by one
+        - Inform user number is even
+        - Inform user how many even and odd numbers there have been
+    - ELSE: number is odd
+        - Odd number count increases by one
+        - Inform user number is odd
+        - Inform user how many even and odd numbers there have been

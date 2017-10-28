@@ -1,0 +1,10 @@
+- Create a true variable
+- Loop until variable is false
+	- Get input from user
+	- IF: Input is not quit
+		- Loop again
+	- IF: Input is quit
+		- Set variable to false
+		- Display exit message
+		- Wait for user to press key
+		- Exit program.

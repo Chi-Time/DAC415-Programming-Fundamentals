@@ -1,0 +1,15 @@
+- Initialise const alphabet
+- Prompt user for letter
+- IF: current input is not a letter
+	- Re-prompt user for input.
+- ELSE: current input is a letter
+	- Check letter ()
+
+- Go through each letter of alphabet
+- Check letter ()
+
+-- Check Letter
+- IF: Letter is a consonant
+	- Print that letter is consonant
+- ELSE IF: Letter is a vowel
+	- Print that letter is a vowel

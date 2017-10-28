@@ -1,0 +1,20 @@
+- Prompt user for character.
+- Store user character input
+- Check if character is a letter or symbol
+- IF: Character is not a letter or symbol
+	- Convert letter to a number
+	- Subtract number from 10
+	- Print subtracted number to user
+	- Re-prompt for input.
+- ELSE IF: Character is symbol
+	- IF: Character is a valid symbol
+		- Print symbol back to user
+		- Re-prompt for input./
+	- ELSE: Character is not a valid symbol
+		- Discard input
+		- Re-prompt for input.
+- ELSE: Character is a letter
+	- IF: Letter is an uppercase
+		- Convert letter to a lowercase
+		- Print it back to user
+		- Re-prompt for input.

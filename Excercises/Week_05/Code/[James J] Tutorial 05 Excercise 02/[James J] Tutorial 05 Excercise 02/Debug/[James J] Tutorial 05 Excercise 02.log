@@ -1,0 +1,4 @@
+﻿  main.cpp
+f:\university work\programming fundamentals - dac416\week_05\[james j] tutorial 05 excercise 02\[james j] tutorial 05 excercise 02\main.cpp(42): warning C4172: returning address of local variable or temporary: number
+  [James J] Tutorial 05 Excercise 02.vcxproj -> F:\University Work\Programming Fundamentals - DAC416\Week_05\[James J] Tutorial 05 Excercise 02\Debug\[James J] Tutorial 05 Excercise 02.exe
+  [James J] Tutorial 05 Excercise 02.vcxproj -> F:\University Work\Programming Fundamentals - DAC416\Week_05\[James J] Tutorial 05 Excercise 02\Debug\[James J] Tutorial 05 Excercise 02.pdb (Full PDB)
