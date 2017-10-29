@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[James J] Tutorial 06 Challenge", "[James J] Tutorial 06 Challenge\[James J] Tutorial 06 Challenge.vcxproj", "{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Debug|x64.ActiveCfg = Debug|x64
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Debug|x64.Build.0 = Debug|x64
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Debug|x86.Build.0 = Debug|Win32
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Release|x64.ActiveCfg = Release|x64
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Release|x64.Build.0 = Release|x64
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Release|x86.ActiveCfg = Release|Win32
+		{AD73830A-6F55-4A5A-9F32-53B2D5FF56FD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C496C04D-C0F3-4C9A-BA5D-D5B7A6895B1B}
+	EndGlobalSection
+EndGlobal
